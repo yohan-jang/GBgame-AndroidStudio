@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sign_in">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#C1C7CD</item>
+    </style>
+    <style name="sign_up">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#777777</item>
+    </style>
+    <style name="sign_in_text">
+        <item name="android:textSize">44sp</item>
+        <item name="android:letterSpacing">0.09</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="fontFamily">ABeeZee</item>
+    </style>
+    <style name="email">
+        <item name="android:textSize">26sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#5ED5A8</item>
+    </style>
+    <style name="sign_in_wit">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#A7AFB7</item>
+    </style>
+    <style name="enter_your_email">
+        <item name="android:textSize">22sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#777777</item>
+    </style>
+    <style name="forgot_pass">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#A7AFB7</item>
+    </style>
+
+    <style name="sign_in2">
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#171D22</item>
+    </style>
+
+</resources>
