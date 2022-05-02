@@ -40,5 +40,10 @@
         <item name="android:letterSpacing">0.03</item>
         <item name="android:textColor">#171D22</item>
     </style>
+    <style name="or_login_wi">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#777777</item>
+    </style>
 
 </resources>
