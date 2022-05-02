@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/sign_in_ema"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:clipToOutline="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/sign_in_ema"
-    tools:context=".MainActivity">
-
+    android:clipToOutline="true"
+    tools:context=".SignUp">
     <View
         android:id="@+id/rectangle"
         android:layout_width="300dp"
@@ -22,7 +21,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="35dp"
         android:layout_marginTop="35dp"
-        android:background="@drawable/btn_sign"
+        android:background="@drawable/rectangle"
         android:text="@string/sign_in"
         android:textAppearance="@style/sign_in" />
     <Button
@@ -31,7 +30,7 @@
         android:layout_height="30dp"
         android:layout_marginTop="35dp"
         android:layout_marginLeft="185dp"
-        android:background="@drawable/rectangle"
+        android:background="@drawable/btn_sign"
         android:text="@string/sign_up"
         android:textAppearance="@style/sign_up"
         />
@@ -42,7 +41,7 @@
         android:layout_height="60dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="80dp"
-        android:text="@string/sign_in"
+        android:text="@string/sign_up"
         android:textAppearance="@style/sign_in_text"
         android:textSize="40dp" />
 
@@ -57,15 +56,15 @@
         android:textSize="22sp"
         android:gravity="top"
         />
+
     <TextView
         android:id="@+id/sign_in_wit"
-        android:layout_width="134dp"
+        android:layout_width="140dp"
         android:layout_height="22.07dp"
         android:layout_marginStart="210dp"
         android:layout_marginTop="170dp"
-        android:text="@string/sign_in_wit"
-        android:textAppearance="@style/sign_in_wit"
-        />
+        android:text="Register with mobile"
+        android:textAppearance="@style/sign_in_wit" />
 
     <View
         android:id="@+id/component_1"
@@ -117,38 +116,49 @@
         android:textColorHint="#777777"
         android:textAppearance="@style/enter_your_email" />
 
+
     <TextView
-        android:id="@+id/forgot_pass"
-        android:layout_width="123dp"
-        android:layout_height="22.07dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="370dp"
-        android:text="@string/forgot_pass"
-        android:textAppearance="@style/forgot_pass"
-        android:gravity="top"
+        android:id="@+id/text_nickname"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="380dp"
+        android:text="@string/nickname"
+        android:textAppearance="@style/email"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/component_3"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/component_1"
         />
+
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="420dp"
+        android:hint="Enter your nickname"
+        android:textColorHint="#777777"
+        android:textAppearance="@style/enter_your_email" />
+
 
     <Button
         android:id="@+id/btn_sign_in"
         android:layout_width="330dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="520dp"
         android:background="@drawable/rectangle_2"
-        android:text="@string/sign_in"
+        android:text="@string/sign_up"
         android:textAppearance="@style/sign_in2"
         android:textSize="24sp"
-        />
-    <TextView
-        android:id="@+id/or_login_wi"
-        android:layout_width="120dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="490dp"
-        android:layout_centerHorizontal="true"
-        android:text="@string/or_login_wi"
-        android:textAppearance="@style/or_login_wi"
-        android:gravity="center_horizontal|top"
         />
 
 

@@ -7,7 +7,9 @@
         <entry key="app/src/main/res/drawable/component_1.xml" value="0.2045" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.2045" />
         <entry key="app/src/main/res/drawable/rectangle_2.xml" value="0.2045" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/sign_in_ema.xml" value="0.147" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
       </map>
     </option>
   </component>
