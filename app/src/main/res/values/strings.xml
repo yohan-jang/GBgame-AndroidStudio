@@ -9,5 +9,7 @@
     <string name="forgot_pass">Forgot password?</string>
     <string name="or_login_wi">Or login with</string>
     <string name="nickname">Nickname</string>
+    <string name="id">id : 123456789</string>
+    <string name="edit_profile">Edit Profile</string>
 
 </resources>
