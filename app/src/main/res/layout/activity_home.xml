@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/sign_in_ema"
+    tools:context=".Home">
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="414dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.1"
+        android:background="@drawable/rectangle_4" />
+
+    <View
+        android:id="@+id/userImage"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/ellipse_441" />
+
+    <Button
+        android:id="@+id/rectangle_3"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rectangle_3"
+        android:text="@string/edit_profile"
+        android:textAppearance="@style/edit_profile"
+        android:gravity="center"
+        android:elevation="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/user_1234"
+        android:layout_width="90dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/nickname"
+        android:textAppearance="@style/user_1234"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/id_12345678"
+        android:layout_width="111dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="95dp"
+        android:text="@string/id"
+        android:textAppearance="@style/id"
+        android:gravity="top"
+        />
+    <View
+        android:id="@+id/Tier"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/iamge"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="0dp"
+        />
+    <View
+        android:id="@+id/Skin"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/iamge"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="180dp"
+        />
+
+
+
+</RelativeLayout>
