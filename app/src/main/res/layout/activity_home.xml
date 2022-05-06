@@ -74,6 +74,14 @@
         android:layout_marginTop="200dp"
         android:layout_marginStart="180dp"
         />
+    <View
+        android:id="@+id/btn_start"
+        android:layout_width="3600dp"
+        android:layout_height="180dp"
+        android:background="@drawable/iamge"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="0dp"
+        />
 
 
 
