@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">good-bad-game</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="sign_in_wit">Sign in with mobile</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="or_login_wi">Or login with</string>
+    <string name="nickname">Nickname</string>
+    <string name="id">id : 123456789</string>
+    <string name="edit_profile">Edit Profile</string>
+
+</resources>
