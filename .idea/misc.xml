@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dygks/AndroidStudioProjects/good-bad-game/app/src/main/res/layout/activity_home.xml" value="0.28442028985507245" />
+        <entry key="..\:/Users/dygks/AndroidStudioProjects/good-bad-game/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/dygks/AndroidStudioProjects/good-bad-game/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="app/src/main/res/drawable/btn_sign_in.xml" value="0.2045" />
         <entry key="app/src/main/res/drawable/component_1.xml" value="0.2045" />
         <entry key="app/src/main/res/drawable/ellipse_441.xml" value="0.1105" />

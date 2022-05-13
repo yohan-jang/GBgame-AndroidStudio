@@ -16,7 +16,7 @@
         android:background="@drawable/rectangle" />
 
     <Button
-        android:id="@+id/btn_manu_sign_in"
+        android:id="@+id/btn_menu_sign_in"
         android:layout_width="140dp"
         android:layout_height="30dp"
         android:layout_marginStart="35dp"
@@ -24,16 +24,16 @@
         android:background="@drawable/rectangle"
         android:text="@string/sign_in"
         android:textAppearance="@style/sign_in" />
+
     <Button
-        android:id="@+id/btn_sign_up"
+        android:id="@+id/btn_menu_sign_up"
         android:layout_width="140dp"
         android:layout_height="30dp"
-        android:layout_marginTop="35dp"
         android:layout_marginLeft="185dp"
+        android:layout_marginTop="35dp"
         android:background="@drawable/btn_sign"
         android:text="@string/sign_up"
-        android:textAppearance="@style/sign_up"
-        />
+        android:textAppearance="@style/sign_up" />
 
     <TextView
         android:id="@+id/sign_in"
@@ -80,10 +80,11 @@
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="31dp"
+        android:textColor="@color/white"
         android:layout_marginTop="200dp"
         android:hint="@string/enter_your_email"
-        android:textColorHint="#777777"
-        android:textAppearance="@style/enter_your_email" />
+        android:textAppearance="@style/enter_your_email"
+        android:textColorHint="#777777" />
 
     <TextView
         android:id="@+id/password_text"
@@ -112,9 +113,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="31dp"
         android:layout_marginTop="310dp"
+        android:textColor="@color/white"
         android:hint="Enter your password"
-        android:textColorHint="#777777"
-        android:textAppearance="@style/enter_your_email" />
+        android:textAppearance="@style/enter_your_email"
+        android:textColorHint="#777777" />
 
 
     <TextView
@@ -144,13 +146,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="31dp"
         android:layout_marginTop="420dp"
+        android:textColor="@color/white"
         android:hint="Enter your nickname"
-        android:textColorHint="#777777"
-        android:textAppearance="@style/enter_your_email" />
+        android:textAppearance="@style/enter_your_email"
+        android:textColorHint="#777777" />
 
 
     <Button
-        android:id="@+id/btn_sign_in"
+        android:id="@+id/btn_sign_up"
         android:layout_width="330dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
@@ -158,8 +161,7 @@
         android:background="@drawable/rectangle_2"
         android:text="@string/sign_up"
         android:textAppearance="@style/sign_in2"
-        android:textSize="24sp"
-        />
+        android:textSize="24sp" />
 
 
 </RelativeLayout>
