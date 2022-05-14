@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
 import retrofit2.Call;
@@ -59,7 +61,8 @@ public class SignIn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String ipt_email = email.getText().toString();
-                String ipt_pw = pw.getText().toString();
+                String ipt_pw = passwordHash(pw.getText().toString());
+
 
                 LoginService LoginService = retrofit.create(LoginService.class);
 
@@ -126,4 +129,46 @@ public class SignIn extends AppCompatActivity {
         });
 
     }
+
+    public static String passwordHash(String password){
+        return sha1("kD0a1"+md5("xA4"+password)+"f4A");
+    }
+
+    // SHA ( Secure Hash Algorithm )
+    public static String sha1(String clearString) {
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA-1");
+            messageDigest.update(clearString.getBytes("UTF-8"));
+            byte[] bytes = messageDigest.digest();
+            StringBuilder buffer = new StringBuilder();
+            for (byte b : bytes) {
+                buffer.append(Integer.toString((b & 0xff) + 0x100, 16).substring(1));
+            }
+            return buffer.toString();
+        }
+        catch (Exception ignored) {
+            ignored.printStackTrace();
+            return null;
+        }
+    }
+
+    // MD5 ( Message Digest Algorithm : 무결성 검사에 사용하는 128비트 해쉬 함수 )
+    // IETF의 RFC 1321로 지정되어 있으나 다수의 중요 결함이 발견되어 현재는 해쉬 용도로 SHA(해쉬함수 집합)와 같이 사용.
+    public static String md5(String s) {
+        try {
+            MessageDigest digest = java.security.MessageDigest.getInstance("MD5");
+            digest.update(s.getBytes());
+            byte messageDigest[] = digest.digest();
+
+            StringBuffer hexString = new StringBuffer();
+            for (int i=0; i<messageDigest.length; i++)
+                hexString.append(Integer.toHexString(0xFF & messageDigest[i]));
+
+            return hexString.toString();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
 }
