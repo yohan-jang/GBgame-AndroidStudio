@@ -99,7 +99,7 @@ public class SignUp extends AppCompatActivity {
                 if (illegal_pw_content == "All Pass" && legal_email){
 
                     Log.d("암호화 전 비밀번호 : ", ipt_password);
-//                ipt_password = passwordHash(ipt_password);
+                    ipt_password = passwordHash(ipt_password);
                     Log.d("암호화 된 비밀번호 : ", ipt_password);
 
                     Log.d("password 인증", illegal_pw_content);
